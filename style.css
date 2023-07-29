@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Lumanosimo&family=M+PLUS+Rounded+1c:wght@300&family=Montserrat:wght@300&family=Poppins:wght@400;700&family=Sono&family=Ysabeau+Office:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arvo:wght@700&family=Bungee+Spice&family=Lumanosimo&family=Sono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Arvo:wght@700&family=Bungee+Spice&family=Lumanosimo&family=Playfair+Display&family=Quicksand&family=Sono:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: #CBD5F0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: 82px;
+    width: 100%;
+    position: fixed;
+    overflow-x: hidden;
+}
+
+div.logo {
+    color: #194F92;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-shadow: 0px 3px 3px rgb(152, 152, 211);
+    overflow: hidden;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    float: right;
+    margin-right: 20px;
+    position: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    line-height: 80px;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+a {
+    color: #194F92;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,
+a:hover {
+    background-color: white;
+    transition: .5s;
+}
+
+#container-one {
+    display: flex;
+    flex-wrap: nowrap;
+    background-image: url('./images/205fa5618edbdcd5e8db49ddd9f707b2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 628px;
+    width: 100%;
+}
+
+#container-left {
+    height: 580px;
+    width: 50%;
+    text-align: center;
+    margin-top: 134px;
+}
+
+.container-left-items {
+    height: 500px;
+    width: 100%;
+    margin-top: 130px;
+    background-color: #f0afaf;
+}
+
+#heading-one {
+    font-family: 'Lumanosimo', cursive;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 150px;
+    margin-right: 0px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+#heading-two {
+    font-family: 'Arvo', serif;
+    font-size: 2.3em;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+#heading-three {
+    font-family: 'Lumanosimo', cursive;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+#container-right {
+    height: 657px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-right-items {
+    height: 350px;
+    width: 350px;
+    background-image: url("./images/Premium\ Vector\ _\ Portrait\ of\ a\ beautiful\ young\ woman-modified\ \(1\).png");
+    margin-top: 204px;
+    margin-right: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #544d4d;
+    border-radius: 190px;
+    box-shadow: 0px 10px 7px #373535;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#container-two {
+    background-color: #fac3a8de;
+    height: 850px;
+    width: 100%;
+}
+
+#container-two-item {
+    width: 95%;
+    height: 677px;
+    margin: 50px;
+    margin-top: 21px;
+    box-shadow: 0px 5px 40px black;
+}
+
+#conatiner-two-HeadingOne {
+    font-weight: bold;
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 46px;
+    text-shadow: 2px 2px 4px white;
+}
+
+#container-two-item1 {
+    height: 100px;
+}
+
+#paraOne {
+    font-size: 23px;
+    color: #88226a;
+    font-family: 'Lumanosimo', cursive;
+    padding: 19px;
+}
+
+.div-items {
+    color: brown;
+    padding: 0px;
+    width: 325px;
+    margin-left: 34px;
+    margin-top: 5pxpx;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.container-three {
+    width: 100%;
+    padding: 35px 10%;
+    min-height: 100vh;
+    background-image: url('./images/download\ \(1\).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col .title h2 {
+    text-align: center;
+    margin-left: -294px;
+}
+
+main.row {
+    display: grid;
+    grid-template-columns: 295px 1fr;
+    grid-column-gap: 94px;
+}
+
+.col header.title {
+    font-family: helvetica;
+    color: rgb(137, 85, 18);
+    padding: 0px 0px 20px 30px;
+}
+
+.col .title h2 {
+    text-align: left;
+    font-size: 53px;
+    font-weight: 750;
+    text-decoration-color: rgb(135, 98, 34);
+    font-family: serif;
+    align-items: center;
+}
+
+.col .contents {
+    padding: 0px 30px;
+    border-left: 2px solid rgb(242, 238, 231);
+}
+
+.col .contents .box {
+    /* position: relative; */
+    padding: 20px;
+    border: 1px solid rgb(237, 231, 227);
+    background-color: rgb(167 148 127);
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+
+.col .contents .box:hover {
+    box-shadow: 0px 3px 12px 0px #89847d;
+    border: 1px solid transparent;
+}
+
+.col .contents .box::before {
+    content: '';
+    position: absolute;
+    margin: 0%;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    right: calc(100% + 22px);
+    top: 0;
+    background-color: #e18b22;
+    border: 2px solid white;
+}
+
+.box h4 {
+    text-decoration-color: rgb(135, 98, 34);
+    font-weight: 800;
+    font-size: 19px;
+    font-family: serif;
+}
+
+.box h3 {
+    font-size: 23px;
+    padding: 10px 0px 6px;
+    font-family: helvetica;
+    color: aliceblue;
+    font-weight: 600;
+    font-family: serif;
+}
+
+.box p {
+    line-height: 1.2;
+    color: #051016;
+    font-size: 17px;
+    font-weight: 550;
+    font-family: serif;
+}
+
+
+/*----------------*/
+
+#container-Four {
+    height: 787px;
+    width: 100%;
+    background-color: #f5e8ec;
+    display: flex;
+}
+
+#container-four-one {
+    height: 70px;
+    width: 388px;
+    background-color: #a15685;
+    margin-top: 84px;
+    box-shadow: 4px 5px 8px black;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+}
+
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+    width: 748px;
+    font-family: serif;
+}
+
+.bar {
+    background-color: #9fabb0;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.html {
+    width: 90%;
+    animation: html 3s;
+}
+
+.css {
+    width: 70%;
+    animation: css 3s;
+}
+
+.javaScript {
+    width: 40%;
+    animation: javaScript 3s;
+}
+
+.java {
+    width: 60%;
+    animation: java 3s;
+}
+
+.cpp {
+    width: 75%;
+    animation: cpp 3s;
+}
+
+.C {
+    width: 55%;
+    animation: C 3s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 70%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes javaScript {
+    0% {
+        width: 40%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes java {
+    0% {
+        width: 60%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes cpp {
+    0% {
+        width: 75%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes C {
+    0% {
+        width: 40%;
+    }
+    55% {
+        width: 90%;
+    }
+}
+
+#container-Five {
+    height: 690px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background: url('./images/Revamp\ Your\ Look\ with\ These\ Trendy\ Hairstyles_\ Unlock\ Your\ Style\ Potential!.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-five-one {
+    height: 540px;
+    width: 489px;
+    background-color: #c1cdd5;
+    margin-right: 58px;
+    margin-left: 91px;
+    margin-top: 90px;
+    font-family: serif;
+}
+
+.hlo {
+    font-size: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 45px;
+}
+
+.container-five-two {
+    height: 545px;
+    width: 50%;
+    background-color: #e1c0c0;
+    margin-top: 90px;
+    margin-right: 34px;
+    font-family: serif;
+}
+
+input[type=text],
+textarea {
+    width: 46%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #342b74;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4037a1;
+}
+
+.container1 {
+    border-radius: 5px;
+    padding-left: 113px;
+    width: 138%;
+}
+
+footer {
+    /* position: fixed; */
+    bottom: 0px;
+    width: 100%;
+    background-color: #111;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 159px;
+}
+
+.left-box {
+    margin-left: 130px;
+}
+
+.right-box {
+    margin-right: 130px;
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.left .content .social {
+    padding: 0 2px;
+}
